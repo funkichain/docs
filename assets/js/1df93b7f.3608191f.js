@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_funki_docs_frontend=self.webpackChunk_funki_docs_frontend||[]).push([[4583],{5553:(n,e,s)=>{s.r(e),s.d(e,{default:()=>f});var u=s(6090),d=s(1085);function f(){return(0,d.jsx)(u.rd,{to:"../docs"})}}}]);

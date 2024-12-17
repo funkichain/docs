@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_funki_docs_frontend=self.webpackChunk_funki_docs_frontend||[]).push([[638],{638:(n,e,s)=>{s.r(e)}}]);
