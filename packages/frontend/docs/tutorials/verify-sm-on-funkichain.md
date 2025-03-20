@@ -4,18 +4,18 @@ slug: /tutorials/verify-sm-on-funkichain
 description: ""
 ---
 
-[FunkiScan](https://funkiscan.io/) is a block explorer tailored for Funki Mainnet, offering developers a platform to interact with and verify smart contracts deployed on the network. Smart contract verification is essential for ensuring the transparency and security of on-chain applications, allowing others to review and validate the source code of deployed contracts. This tutorial will guide you through popular methods to verify a contract, as several approaches are available.
+[FunkiScan](https://explorer.funkichain.com/) is a block explorer tailored for Funki Mainnet, offering developers a platform to interact with and verify smart contracts deployed on the network. Smart contract verification is essential for ensuring the transparency and security of on-chain applications, allowing others to review and validate the source code of deployed contracts. This tutorial will guide you through popular methods to verify a contract, as several approaches are available.
 
-[FunkiScan](https://funkiscan.io/) uses the [RouterScan API](https://routescan.io/documentation/api-swagger) for contract verification. Currently, no API key is required, and your requests fall under their free plan.
+[FunkiScan](https://explorer.funkichain.com/) uses the [RouterScan API](https://routescan.io/documentation/api-swagger) for contract verification. Currently, no API key is required, and your requests fall under their free plan.
 
 - As of writing these docs, the RouteScan API free tier allows you to use the API without an API key, offering up to **2 requests per second (rps)** and **a daily limit of 10,000 calls**. Read more at [RouterScan API Plans](https://routescan.io/documentation#api-plans)
-- To verify a contract on Funki Testnet, simply switch the chain information to [Funki Testnet](https://docs.funkichain.com/docs/network-information). Currently, Funki Testnet is an L2 of Sepolia Testnet, and its explorer is publicly available at [Funki Testnet Explorer](http://testnet.funkiscan.io/)
+- To verify a contract on Funki Testnet, simply switch the chain information to [Funki Testnet](https://docs.funkichain.com/docs/network-information). Currently, Funki Testnet is an L2 of Sepolia Testnet, and its explorer is publicly available at [Funki Testnet Explorer](http://testnet-explorer.funkichain.com/)
 
 ## Objectives
 
 By the end of this tutorial, you should be able to:
 - Verify your deployed contract with popular Frameworks and toolkits.
-- Verify contract directly on [FunkiScan](https://funkiscan.io/).
+- Verify contract directly on [FunkiScan](https://explorer.funkichain.com/).
 
 ---
 
@@ -29,7 +29,7 @@ Frameworks and toolkits streamline the process of deploying, testing, and intera
 ---
 
 ## Hardhat verification
-[**hardhat-verify**](https://hardhat.org/hardhat-runner/plugins/nomicfoundation-hardhat-verify) is a Hardhat plugin that simplifies the smart contract verification process on Etherscan. Thanks to the Etherscan Compatible Verify Contract API, you can also use this tool to verify your smart contract on [FunkiScan](https://funkiscan.io/).
+[**hardhat-verify**](https://hardhat.org/hardhat-runner/plugins/nomicfoundation-hardhat-verify) is a Hardhat plugin that simplifies the smart contract verification process on Etherscan. Thanks to the Etherscan Compatible Verify Contract API, you can also use this tool to verify your smart contract on [FunkiScan](https://explorer.funkichain.com/).
 
 Here's an example of a hardhat.config.ts file:
 ```jsx
@@ -48,7 +48,7 @@ const config: HardhatUserConfig = {
         chainId: 33979,
         urls: {
           apiURL: "https://api.routescan.io/v2/network/mainnet/evm/33979_2/etherscan/api",
-          browserURL: "https://funkiscan.io"
+          browserURL: "https://explorer.funkichain.com"
         }
       }
     ]
@@ -102,7 +102,7 @@ forge verify-contract [contract-address] [src/path/ContractPath.sol:ContractName
 
 ## **FunkiScan verify contract with files**
 
-You can verify contracts using the [FunkiScan verification tool](https://funkiscan.io/verifycontract). This method is particularly useful if you've deployed your contract with Remix IDE and need to verify it.
+You can verify contracts using the [FunkiScan verification tool](https://explorer.funkichain.com/verifycontract). This method is particularly useful if you've deployed your contract with Remix IDE and need to verify it.
 
 - Step 1: Enter your deployed contract's address.
 - Step 2: Choose your programming language.

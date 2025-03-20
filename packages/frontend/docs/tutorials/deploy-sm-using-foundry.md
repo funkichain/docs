@@ -215,7 +215,7 @@ To verify, grab the deployed address and run:
 forge verify-contract &lt;DEPLOYED_ADDRESS&gt; ./src/NFT.sol:NFT --chain 33979 --watch
 ```
 
-Confirm verification by searching for your contract on [FunkiScan](https://funkiscan.io/).
+Confirm verification by searching for your contract on [FunkiScan](https://explorer.funkichain.com/).
 
 > Note: You cannot re-verify a contract that has already been verified with identical code. Attempting to do so will result in an error.
 >
@@ -224,7 +224,7 @@ Confirm verification by searching for your contract on [FunkiScan](https://funki
 
 ## Interacting with the Smart Contract
 
-After verifying your contract on [FunkiScan](https://funkiscan.io/), you can interact with it through the "Read Contract" and "Write Contract" sections under the "Contract" tab. To use the "Write Contract" feature, connect your wallet by clicking the "Connect to Web3" button. Be aware that you might need to click "Connect" twice to establish a successful connection.
+After verifying your contract on [FunkiScan](https://explorer.funkichain.com/), you can interact with it through the "Read Contract" and "Write Contract" sections under the "Contract" tab. To use the "Write Contract" feature, connect your wallet by clicking the "Connect to Web3" button. Be aware that you might need to click "Connect" twice to establish a successful connection.
 
 To practice using Foundry's `cast` command-line tool, you'll perform a read operation without publishing a transaction, then sign and publish a write transaction.
 
