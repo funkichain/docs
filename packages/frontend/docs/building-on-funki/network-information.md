@@ -34,7 +34,7 @@ keywords:
 | RPC Endpoint    | [https://rpc-mainnet.funkichain.com](https://rpc-mainnet.funkichain.com) <br/>_Rate limited and not for production systems._ |
 | Chain ID        | 33979                        |
 | Currency Symbol | ETH                    |
-| Block Explorer  | [https://funkiscan.io](https://funkiscan.io)                                            |
+| Block Explorer  | [https://explorer.funkichain.com](https://explorer.funkichain.com)                                            |
 
 ---
 
@@ -47,7 +47,7 @@ keywords:
 | RPC Endpoint    | [https://funki-testnet.alt.technology](https://funki-testnet.alt.technology)<br/>_Rate limited and not for production systems._ |
 | Chain ID        | 3397901                                                                         |
 | Currency Symbol | ETH                                                                       |
-| Block Explorer  | [https://testnet.funkiscan.io/](https://testnet.funkiscan.io/)   |
+| Block Explorer  | [https://testnet-explorer.funkichain.com/](https://testnet-explorer.funkichain.com/)   |
 
 ---
 
