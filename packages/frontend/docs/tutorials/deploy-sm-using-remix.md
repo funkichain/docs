@@ -175,7 +175,7 @@ Click the orange *Deploy* button. Because it costs gas to deploy a contract, y
 :::danger
 Always carefully review all transactions, confirming the transaction cost, assets transferred, and network. As a developer, you'll become accustomed to approving transactions frequently. Make a conscious effort to avoid falling into the habit of clicking *Confirm* without thoroughly examining the transaction details. If you feel rushed to *Confirm* before time runs out, it's likely a scam.
 
-After clicking the *Confirm* button, return to Remix and wait for the transaction to deploy. Copy its address and navigate to https://funkiscan.io/. **Note:** If you deployed to mainnet, you'll navigate to https://funkiscan.io/ instead.
+After clicking the *Confirm* button, return to Remix and wait for the transaction to deploy. Copy its address and navigate to https://explorer.funkichain.com/. **Note:** If you deployed to mainnet, you'll navigate to https://explorer.funkichain.com/ instead.
 :::
 
 ### Verify the Contract[](#verify-the-contract)
@@ -184,9 +184,9 @@ After clicking the *Confirm* button, return to Remix and wait for the transactio
 Verifying the contract is unnecessary if you've deployed one that's identical to a previously verified contract.
 :::
 
-You can interact with your deployed contract using Remix as before, but it's also possible to interact through [FunkiScan](https://funkiscan.io/). Simply paste your contract's address in the search field to locate it.
+You can interact with your deployed contract using Remix as before, but it's also possible to interact through [FunkiScan](https://explorer.funkichain.com/). Simply paste your contract's address in the search field to locate it.
 
-To verify your contract, use the [FunkiScan verification tool](https://funkiscan.io/verifycontract). Follow these steps:
+To verify your contract, use the [FunkiScan verification tool](https://explorer.funkichain.com/verifycontract). Follow these steps:
 
 1. Enter your deployed contract's address.
 2. Select your programming language.

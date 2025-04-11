@@ -26,7 +26,7 @@ keywords:
 
 ## Mainnet
 
-A Routescan explorer is available for [Funki Mainnet](https://funkiscan.io).
+A Routescan explorer is available for [Funki Mainnet](https://explorer.funkichain.com).
 
 Routescan superchain explorer allows you to search for transactions, addresses, tokens, prices and other activities taking place across all Superchain blockchains, including Funki.
 
@@ -34,7 +34,7 @@ Routescan superchain explorer allows you to search for transactions, addresses, 
 
 ## Testnet
 
-A Blockscout explorer is available for [Funki Testnet](https://testnet.funkiscan.io/).
+A Blockscout explorer is available for [Funki Testnet](https://testnet-explorer.funkichain.com/).
 
 Blockscout provides tools to help you debug smart contracts and transactions:
 
