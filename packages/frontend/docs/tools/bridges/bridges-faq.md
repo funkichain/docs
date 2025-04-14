@@ -48,7 +48,8 @@ Add Funki Chain Mainnet to your Wallet
 [https://explorer.funkichain.com](https://explorer.funkichain.com)
 
 
-![Screenshot_2024-12-17_at_10.40.42.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a29d0ad0-5c40-46dc-afd9-2ba0cc23a350/43393392-c204-4c2a-ba84-56f86e3a3537/Screenshot_2024-12-17_at_10.40.42.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241217T142220Z&X-Amz-Expires=3600&X-Amz-Signature=b7d349b9a0d829f7136ecabb39cedd3073729aa718137a83a5e4bc8f8728e8bd&X-Amz-SignedHeaders=host&x-id=GetObject)
+
+![Screenshot_2024-12-17_at_10.40.42.png](/15f2701f826d80b493ebd2884bcc9fb0/Screenshot_2024-12-17_at_10.40.42.png)
 
 
 ![Screenshot_2024-12-17_at_10.40.23.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a29d0ad0-5c40-46dc-afd9-2ba0cc23a350/97e96905-824e-4da1-a9f2-0ef028c061a8/Screenshot_2024-12-17_at_10.40.23.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241217T142220Z&X-Amz-Expires=3600&X-Amz-Signature=68f781f9bc8b01d8457247a14401bb65a26ba776f3ed7d270c1e36bf32c1c816&X-Amz-SignedHeaders=host&x-id=GetObject)
@@ -129,7 +130,8 @@ Add Funki Chain Mainnet to your Wallet
 [https://explorer.funkichain.com](https://explorer.funkichain.com)
 
 
-![Screenshot_2024-12-17_at_10.40.42.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a29d0ad0-5c40-46dc-afd9-2ba0cc23a350/43393392-c204-4c2a-ba84-56f86e3a3537/Screenshot_2024-12-17_at_10.40.42.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241217T142220Z&X-Amz-Expires=3600&X-Amz-Signature=b7d349b9a0d829f7136ecabb39cedd3073729aa718137a83a5e4bc8f8728e8bd&X-Amz-SignedHeaders=host&x-id=GetObject)
+
+![Screenshot_2024-12-17_at_10.40.42.png](/15f2701f826d80b493ebd2884bcc9fb0/Screenshot_2024-12-17_at_10.40.42.png)
 
 
 ![Screenshot_2024-12-17_at_10.40.23.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a29d0ad0-5c40-46dc-afd9-2ba0cc23a350/97e96905-824e-4da1-a9f2-0ef028c061a8/Screenshot_2024-12-17_at_10.40.23.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241217T142220Z&X-Amz-Expires=3600&X-Amz-Signature=68f781f9bc8b01d8457247a14401bb65a26ba776f3ed7d270c1e36bf32c1c816&X-Amz-SignedHeaders=host&x-id=GetObject)
