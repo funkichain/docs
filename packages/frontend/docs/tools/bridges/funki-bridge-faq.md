@@ -50,7 +50,7 @@ Add Funki Chain Mainnet to your Wallet
 - Block explorer URL:
 
 
-[https://funkiscan.io/](https://funkiscan.io/)
+[https://explorer.funkichain.com](https://explorer.funkichain.com)
 
 
 ![Screenshot_2024-12-17_at_10.40.42.png](/15f2701f826d80b493ebd2884bcc9fb0/Screenshot_2024-12-17_at_10.40.42.png)
@@ -127,7 +127,7 @@ Add Funki Chain Mainnet to your Wallet
 - Network RPC URL: [https://rpc-mainnet.funkichain.com](https://rpc-mainnet.funkichain.com/)
 - Chain ID: 33979
 - Currency symbol: ETH
-- Block explorer URL: [https://funkiscan.io/](https://funkiscan.io/)
+- Block explorer URL: [https://explorer.funkichain.com](https://explorer.funkichain.com)
 
 
 ![Screenshot_2024-12-17_at_10.40.42.png](/15f2701f826d80b493ebd2884bcc9fb0/Screenshot_2024-12-17_at_10.40.42.png)

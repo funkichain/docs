@@ -192,7 +192,7 @@ Add Funki Chain Mainnet to your Wallet
 - Block explorer URL:
 
 
-[https://funkiscan.io/](https://funkiscan.io/)
+[https://explorer.funkichain.com](https://explorer.funkichain.com)
 
 
 **Step 2: Select tokens & specify the amount to be swapped** 
