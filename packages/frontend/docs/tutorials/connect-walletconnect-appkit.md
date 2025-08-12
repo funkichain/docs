@@ -77,7 +77,7 @@ export function AppKitProvider({ children }) {
 
 ### **Trigger the modal**
 
-To open AppKit, you can use our [**web component**](https://docs.walletconnect.com/appkit/react/core/components) or build your own button with AppKit [**hooks**](https://docs.walletconnect.com/appkit/react/core/hooks#useweb3modal). In this example, we'll use the `&lt;w3m-button&gt;` component.
+To open AppKit, you can use our [**web component**](https://docs.walletconnect.com/appkit/react/core/components) or build your own button with AppKit [**hooks**](https://docs.walletconnect.com/appkit/react/core/hooks#useweb3modal). In this example, we'll use the `<w3m-button>` component.
 
 Web components are global HTML elements that don't require importing.
 

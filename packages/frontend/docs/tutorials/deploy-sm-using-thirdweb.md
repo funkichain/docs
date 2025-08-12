@@ -5,7 +5,7 @@ order: 5.4
 description: ""
 ---
 
-[Thirdweb](https://thirdweb.com/) is a powerful development framework that enables you to integrate web3 functionality into your applications. This tutorial will guide you through using the [thirdweb CLI](https://portal.thirdweb.com/cli) to deploy a smart contract on the FunkiSepolia.
+[Thirdweb](https://thirdweb.com/) is a powerful development framework that enables you to integrate web3 functionality into your applications. This tutorial will guide you through using the [thirdweb CLI](https://portal.thirdweb.com/cli) to deploy a smart contract on the FunkiDevnet.
 
 ---
 
@@ -106,10 +106,10 @@ From the dashboard, you'll need to enter the values for your contract's construc
 - `_royaltyRecipient`: The wallet address receiving royalties from secondary sales
 - `_royaltyBps`: The basis points (bps) for royalties on each secondary sale (e.g., 500 = 5%)
 
-Lastly, choose the FunkiSepolia as your deployment [network](https://blog.thirdweb.com/guides/which-network-should-you-use/), then click **Deploy Now**.
+Lastly, choose the FunkiDevnet as your deployment [network](https://blog.thirdweb.com/guides/which-network-should-you-use/), then click **Deploy Now**.
 
 :::info
-For production / mainnet deployments select `FunkiMainet` as the network rather than `FunkiSepolia`.
+For production / mainnet deployments select `FunkiMainet` as the network rather than `FunkiDevnet`.
 :::
 
 Once your contract is deployed, you'll be redirected to a [dashboard](https://thirdweb.com/dashboard) for managing your contract.
@@ -142,21 +142,21 @@ In the [`index.tsx`](https://github.com/thirdweb-example/cra-typescript-starter/
 
 This wrapper enables the use of all [React SDK](https://portal.thirdweb.com/react) hooks and [UI Components](https://portal.thirdweb.com/react/react.web3button) throughout the application. It also allows you to configure an `activeChain`, which specifies the blockchain network for your smart contracts.
 
-Since we deployed our smart contract to the Funki network, we'll set the `activeChain` to `FunkiSepolia`:
+Since we deployed our smart contract to the Funki network, we'll set the `activeChain` to `FunkiDevnet`:
 
 ```solidity
 ...
-import { FunkiSepolia } from "@thirdweb-dev/chains";
+import { FunkiDevnet } from "@thirdweb-dev/chains";
 import { ThirdwebProvider } from "@thirdweb-dev/react";
 
 const container = document.getElementById("root");
 const root = createRoot(container!);
 root.render(
- &lt;React.StrictMode&gt;
-   &lt;ThirdwebProvider activeChain={FunkiSepolia}&gt;
-     &lt;App /&gt;
-   &lt;/ThirdwebProvider&gt;
- &lt;/React.StrictMode&gt;
+ <React.StrictMode>;
+   <ThirdwebProvider activeChain={FunkiDevnet}>
+     <App />
+   </ThirdwebProvider>
+ </React.StrictMode>
 );
 ```
 
@@ -168,7 +168,7 @@ To connect to your smart contract in the application, provide your smart contrac
 import { useContract } from '@thirdweb-dev/react';
 
 export default function Home() {
-  const { contract } = useContract('&lt;CONTRACT_ADDRESS&gt;');
+  const { contract } = useContract('CONTRACT_ADDRESS');
 
   // Now you can use the contract in the rest of the component!
 }

@@ -39,7 +39,7 @@ Select your preferred bridging framework and use it to deploy an ERC-20 for your
 
 ### Step 2: Submit details for your token
 
-Follow the instructions in the [GitHub repository](https://github.com/ethereum-optimism/ethereum-optimism.github.io) and submit a PR containing the required details for your token. You must specify in your token's data.json file a section for ‘funki-testnet' and/or 'funki-mainnet'. The change you need to submit is particularly simple if your token has already been added to the Optimism token list.
+Follow the instructions in the [GitHub repository](https://github.com/ethereum-optimism/ethereum-optimism.github.io) and submit a PR containing the required details for your token. You must specify in your token's data.json file a section for ‘funki-devnet' and/or 'funki-mainnet'. The change you need to submit is particularly simple if your token has already been added to the Optimism token list.
 
 ### Step 3: Await final approval
 

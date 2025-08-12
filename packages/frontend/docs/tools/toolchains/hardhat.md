@@ -9,7 +9,7 @@ keywords:
     Funki,
     Funki network,
     Funki mainnet,
-    Funki testnet,
+    Funki devnet,
     hardhat config,
     hardhat configuration,
     Ethereum development,

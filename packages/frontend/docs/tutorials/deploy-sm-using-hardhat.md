@@ -44,7 +44,7 @@ To deploy a smart contract, you'll need a web3 wallet. Create one by installing 
 
 Deploying contracts to the blockchain incurs gas fees. You'll need to fund your wallet with ETH to cover these costs.
 
-For this tutorial, you'll deploy a contract to the FunkiSepolia. To obtain Sepolia ETH, use one of the faucets listed on the Funki [Network Faucets](https://funkichain.com/portfolio/tokens?modal=claim-faucet) page.
+For this tutorial, you'll deploy a contract to the FunkiDevnet. To obtain Sepolia ETH, use one of the faucets listed on the Funki [Network Faucets](https://funkichain.com/portfolio/tokens?modal=claim-faucet) page.
 
 ---
 
@@ -98,9 +98,9 @@ const config: HardhatUserConfig = {
       url: 'https://rpc-mainnet.funkichain.com',
       accounts: [process.env.WALLET_KEY as string],
     },
-    // for testnet
-    'funkiSepolia': {
-      url: 'https://funki-testnet.alt.technology',
+    // for devnet
+    'FunkiDevnet': {
+      url: 'https://rpc-devnet.funkichain.com',
       accounts: [process.env.WALLET_KEY as string],
     },
     // for local dev environment
@@ -196,9 +196,9 @@ npx hardhat compile
 
 ## Deploying the smart contract[](#deploying-the-smart-contract)
 
-Once your contract has been successfully compiled, you can deploy the contract to the FunkiSepolia.
+Once your contract has been successfully compiled, you can deploy the contract to the FunkiDevnet.
 
-To deploy the contract to the FunkiSepolia, you'll need to modify the `scripts/deploy.ts` in your project:
+To deploy the contract to the FunkiDevnet, you'll need to modify the `scripts/deploy.ts` in your project:
 
 ```solidity
 import { ethers } from 'hardhat';
@@ -224,10 +224,10 @@ You'll also need testnet ETH in your wallet. See the [prerequisites](#prerequis
 Finally, run:
 
 ```bash
-npx hardhat run scripts/deploy.ts --network funkiSepolia
+npx hardhat run scripts/deploy.ts --network funkiDevnet
 ```
 
-The contract will be deployed on the FunkiSepolia. You can check the deployment status and view the contract using a [block explorer](https://testnet-explorer.funkichain.com/) by searching for the address provided by your deploy script. If you've deployed an exact copy of the NFT contract described above, it will be pre-verified, allowing you to interact with it directly through the web interface.
+The contract will be deployed on the FunkiDevnet. You can check the deployment status and view the contract using a [block explorer](https://devnet-explorer.funkichain.com) by searching for the address provided by your deploy script. If you've deployed an exact copy of the NFT contract described above, it will be pre-verified, allowing you to interact with it directly through the web interface.
 
 :::info
 If you'd like to deploy to mainnet, you'll modify the command like so:
@@ -242,22 +242,22 @@ Regardless of the network you're deploying to, if you're deploying a new or modi
 
 ## Verifying the Smart Contract[](#verifying-the-smart-contract)
 
-To interact with your contract on the block explorer, you or someone else needs to verify it first. The contract we've discussed has already been verified, so you should be able to view your deployed version on a block explorer immediately. For the rest of this tutorial, we'll guide you through verifying your contract on the FunkiSepolia.
+To interact with your contract on the block explorer, you or someone else needs to verify it first. The contract we've discussed has already been verified, so you should be able to view your deployed version on a block explorer immediately. For the rest of this tutorial, we'll guide you through verifying your contract on the FunkiDevnet.
 
-In your `hardhat.config.ts` file, set up FunkiSepolia as a custom network. Add the following configuration to your `HardhatUserConfig`:
+In your `hardhat.config.ts` file, set up FunkiDevnet as a custom network. Add the following configuration to your `HardhatUserConfig`:
 
 ```solidity
 etherscan: {
    apiKey: {
-    "funkiSepolia": "PLACEHOLDER_STRING"
+    "funkiDevnet": "PLACEHOLDER_STRING"
    },
    customChains: [
      {
-       network: "funkiSepolia",
-       chainId: 3397901,
+       network: "funkiDevnet",
+       chainId: 3397902,
        urls: {
         apiURL: "https://api.routescan.io/v2/network/testnet/evm/3397901/etherscan/api",
-        browserURL: "http://testnet-explorer.funkichain.com/"
+        browserURL: "https://devnet-explorer.funkichain.com/"
        }
      }
    ]
@@ -269,13 +269,13 @@ Or using the [RouterScan API](https://routescan.io/documentation/api-swagger) fo
 > As of writing these docs, the RouteScan API free tier allows you to use the API without an API key, offering up to **2 requests per second (rps)** and **a daily limit of 10,000 calls.** Read more at [RouterScan API Plans](https://routescan.io/documentation#api-plans)
 > 
 
-> To verify a contract on FunkiSepolia, simply switch the chain information to [FunkiSepolia](https://docs.funkichain.com/docs/network-information). Currently, FunkiSepolia is an L2 of Sepolia Testnet, and its explorer is publicly available at [Funki Testnet Explorer](http://testnet-explorer.funkichain.com/)
+> To verify a contract on FunkiDevnet, simply switch the chain information to [FunkiDevnet](https://docs.funkichain.com/docs/network-information). Currently, Funki Devnet is an L2 of Sepolia Testnet, and its explorer is publicly available at [Funki Devnet Explorer](https://devnet-explorer.funkichain.com/)
 > 
 
 Now, you can verify your contract on the Testnet. First, grab the deployed address and run:
 
 ```solidity
-npx hardhat verify --network funkiSepolia <deployed address>
+npx hardhat verify --network funkiDevnet <deployed address>
 ```
 
 For Mainnet, simply change the network parameter:
@@ -312,7 +312,7 @@ Once connected, you're all set to interact with any write function of the contra
 
 ## Conclusion
 
-We've covered deploying an NFT smart contract on FunkiSepolia using Hardhat. Here's what you need to know:
+We've covered deploying an NFT smart contract on FunkiDevnet using Hardhat. Here's what you need to know:
 - Hardhat streamlines smart contract development with deployment, testing, and debugging tools.
 - To set up a Hardhat project, configure networks, manage environment variables, and write Solidity code.
 - Deployment involves compiling the contract, running scripts, and verifying on the blockchain explorer.
