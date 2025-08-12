@@ -9,7 +9,7 @@ keywords:
     JavaScript library,
     Funki network,
     Funki mainnet,
-    Funki testnet,
+    Funki devnet,
     smart contracts,
     EVM-compatible,
     blockchain,
@@ -60,7 +60,7 @@ const provider = new ethers.providers.JsonRpcProvider(url);
 
 :::info
 
-To alternatively connect to Funki Sepolia (testnet), change the above URL from `https://rpc-mainnet.funkichain.com` to `https://funki-testnet.alt.technology`.
+To alternatively connect to Funki Devnet (devnet), change the above URL from `https://rpc-mainnet.funkichain.com` to `https://rpc-devnet.funkichain.com`.
 
 :::
 

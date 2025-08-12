@@ -9,10 +9,10 @@ descriptions: ""
 
 Remix features an in-browser blockchain simulator, enabling swift contract deployment and testing. While this simulation is limited to your browser environment, Remix also facilitates deployment to various testnets. This functionality allows for public sharing of your contract, albeit with the consideration that your code becomes visible to others.
 
-This article will provide a comprehensive overview of Remix and guide you through the process of deploying a contract to the **FunkiSepolia**.
+This article will provide a comprehensive overview of Remix and guide you through the process of deploying a contract to the **FunkiDevnet**.
 
 :::info
-For production or mainnet deployments, the steps in this tutorial are nearly identical. However, you'll need to ensure you've selected `FunkiMainet` as the network instead of `FunkiSepolia`.
+For production or mainnet deployments, the steps in this tutorial are nearly identical. However, you'll need to ensure you've selected `FunkiMainet` as the network instead of `FunkiDevnet`.
 :::
 
 If you're already familiar with Remix, you probably want to jump down to [here](https://docs-funki.sipher.gg/docs/tools/web3#deploying-contracts).
@@ -25,7 +25,7 @@ By the end of this tutorial, you'll be able to:
 
 - Understand Remix's features, advantages, and limitations as an IDE
 - Deploy and test the Storage.sol demo contract using Remix
-- Deploy a contract to the FunkiSepolia using Remix and interact with it
+- Deploy a contract to the FunkiDevnet using Remix and interact with it
 
 ---
 
@@ -128,11 +128,11 @@ First, add the [Coinbase](https://www.coinbase.com/wallet) or [MetaMask](https:/
 
 After setting up your wallet, enable developer settings and activate testnets ([Coinbase Settings](https://docs.cloud.coinbase.com/wallet-sdk/docs/developer-settings), [MetaMask Settings](https://support.metamask.io/managing-my-wallet/using-metamask/how-to-view-testnets-in-metamask/)).
 
-### Add the FunkiSepolia to your Wallet
+### Add the FunkiDevnet to your Wallet
 
-Most wallets include the FunkiSepolia as one of the default testnet networks. You may need to enable developer mode to view them.
+Most wallets include the FunkiDevnet as one of the default testnet networks. You may need to enable developer mode to view them.
 
-For this tutorial, you'll deploy a contract to the FunkiSepolia. To fund your wallet with Funki Sepolia ETH, use one of the faucets listed on the Funki [Network Faucets](https://funkichain.com/portfolio/tokens?modal=claim-faucet) page.
+For this tutorial, you'll deploy a contract to the FunkiDevnet. To fund your wallet with Funki Devnet ETH, use one of the faucets listed on the Funki [Network Faucets](https://funkichain.com/portfolio/tokens?modal=claim-faucet) page.
 
 ### Get Testnet Ether
 
@@ -140,9 +140,9 @@ Testnet tokens have no real monetary value, but their supply is limited. Use a f
 
 It's wise to bookmark multiple faucets, which you can easily find through a simple search. This precaution helps because faucets occasionally go offline. Faucet providers often battle against malicious actors and may need to temporarily disable their services.
 
-You can access [the FunkiSepolia faucet](https://funkichain.sipher.gg/portfolio/tokens?modal=claim-faucet) for some test tokens.
+You can access [the FunkiDevnet faucet](https://funkichain.sipher.gg/portfolio/tokens?modal=claim-faucet) for some test tokens.
 
-After obtaining testnet Funki Sepolia Ether, you can view your balance under the *Testnets* tab in the Coinbase wallet, or by selecting the testnet from the network dropdown in MetaMask. Don't get too excited, though—despite the impressive numbers you might see, it's not actually worth real money!
+After obtaining testnet Funki Devnet Ether, you can view your balance under the *Testnets* tab in the Coinbase wallet, or by selecting the testnet from the network dropdown in MetaMask. Don't get too excited, though—despite the impressive numbers you might see, it's not actually worth real money!
 
 ---
 
@@ -164,7 +164,7 @@ Your first connection will trigger a wallet prompt, asking you to confirm linkin
 
 Once connected, you'll spot the network name right below the *Environment* dropdown.
 
-For the FunkiSepolia, look for `Custom (3397901) network`. (**Note:** Deploying to mainnet? You'll see `Custom (33979) network` instead.)
+For the FunkiDevnet, look for `Custom (3397902) network`. (**Note:** Deploying to mainnet? You'll see `Custom (33979) network` instead.)
 
 If the network doesn't match, simply switch to the correct one in your wallet.
 

@@ -2,13 +2,13 @@
 title: Network Faucets
 slug: /tools/network-faucets
 order: 6.3
-description: Documentation for Testnet Faucets for the Funki network. Details how to obtain Funki testnet ETH.
+description: Documentation for Testnet Faucets for the Funki network. Details how to obtain Funki devnet ETH.
 keywords:
   [
     network faucets,
-    Funki Sepolia,
+    Funki Devnet,
     testnet ETH,
-    Funki testnet,
+    Funki devnet,
     Funki  Faucet,
     Superchain Faucet,
     Bware Labs Faucet,
@@ -28,11 +28,11 @@ Coming soon
 
 <!-- ## Alchemy Faucet
 
-The [Alchemy Faucet](https://funkifaucet.com/) is a fast and reliable network faucet that allows users with a free Alchemy account to request testnet ETH on Funki Sepolia.
+The [Alchemy Faucet](https://funkifaucet.com/) is a fast and reliable network faucet that allows users with a free Alchemy account to request testnet ETH on Funki Devnet.
 
 :::info
 
-Requests to Alchemy's Funki Sepolia Faucet are limited to one claim per 24 hours.
+Requests to Alchemy's Funki Devnet Faucet are limited to one claim per 24 hours.
 
 ::: -->
 

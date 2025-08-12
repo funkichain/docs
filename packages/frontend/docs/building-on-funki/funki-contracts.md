@@ -2,7 +2,7 @@
 title: Funki Contracts
 slug: /funki-contracts
 order: 4.2
-description: A comprehensive list of L2 contract addresses for Funki Mainnet and Funki Testnet, including links to their respective blockchain explorers.
+description: A comprehensive list of L2 contract addresses for Funki Mainnet and Funki Devnet, including links to their respective blockchain explorers.
 keywords:
   [
     Funki,
@@ -14,7 +14,7 @@ keywords:
     smart contracts,
     Funki smart contracts,
     Funki Mainnet,
-    Funki Testnet,
+    Funki Devnet,
   ]
 # hide_table_of_contents: true
 ---
@@ -97,7 +97,7 @@ keywords:
 | SystemConfigProxy                 | [0xd6A01f1Ef51D65F023433992a8F62fEeAD35b172](https://sepolia.etherscan.io/address/0xd6A01f1Ef51D65F023433992a8F62fEeAD35b172) |
 | SystemOwnerSafe                   | [0x814973b1ec9Eb9172996931dE7BF1380bd64a824](https://sepolia.etherscan.io/address/0x814973b1ec9Eb9172996931dE7BF1380bd64a824) |
 
-### Funki Sepolia (L2)
+### Funki Devnet (L2)
 
 | Name                          | Address                                                                                                                       |
 | :---------------------------- | :---------------------------------------------------------------------------------------------------------------------------- |

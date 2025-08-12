@@ -2,7 +2,7 @@
 title: Foundry
 slug: /tools/toolchains/foundry
 order: 6.8.2
-description: Documentation for Foundry, a toolchain for smart contract development. Provides instructions on deploying and verifying contracts on Funki's mainnet and testnet using Foundry.
+description: Documentation for Foundry, a toolchain for smart contract development. Provides instructions on deploying and verifying contracts on Funki's mainnet and devnet using Foundry.
 keywords:
   [
     Foundry,
@@ -12,14 +12,14 @@ keywords:
     toolchain,
     Funki,
     Funki mainnet,
-    Funki testnet,
+    Funki devnet,
     Funki network,
     RPC URL,
     chain id,
     deploying contracts,
     verifying contracts,
     mainnet,
-    testnet,
+    devnet,
   ]
 # hide_table_of_contents: true
 ---
@@ -54,16 +54,16 @@ forge create ... --rpc-url=`https://rpc-mainnet.funkichain.com`/
 forge verify-contract ... --chain-id 33979
 ```
 
-## Testnet
+## Devnet
 
 ### Deploying a smart contract
 
 ```bash
-forge create ... --rpc-url=https://funki-testnet.alt.technology
+forge create ... --rpc-url=https://rpc-devnet.funkichain.com
 ```
 
 ### Verifying a smart contract
 
 ```bash
-forge verify-contract ... --chain-id 3397901
+forge verify-contract ... --chain-id 3397902
 ```

@@ -208,9 +208,9 @@ Let's start by creating a `render` function:
 function render(uint _tokenId) public view returns (string memory) {
   return string(
     abi.encodePacked(
-      "&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1024 1024'&gt;",
+      "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1024 1024'>",
         // TODO: add a rectangle with a random color fill
-      "&lt;/svg&gt;"
+      "</svg>"
     )
   );
 }

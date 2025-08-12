@@ -10,7 +10,7 @@ keywords:
     CLI,
     Funki,
     Funki mainnet,
-    Funki testnet,
+    Funki devnet,
     Funki network,
     smart contracts,
     deploy smart contract,
@@ -75,7 +75,7 @@ To deploy to the Funki network, after running `npx thirdweb deploy`, visit the p
 
 <!-- :::info
 
-For a complete guide on using the thirdweb CLI to create and deploy contracts on Funki, see [Deploy a smart contract on Funki testnet](https://blog.thirdweb.com/guides/how-to-deploy-a-smart-contract-to-base-network-testnet-coinbase-l2/).
+For a complete guide on using the thirdweb CLI to create and deploy contracts on Funki, see [Deploy a smart contract on Funki devnet](https://blog.thirdweb.com/guides/how-to-deploy-a-smart-contract-to-base-network-testnet-coinbase-l2/).
 
 ::: -->
 

@@ -10,7 +10,7 @@ description: ""
 [FunkiScan](https://explorer.funkichain.com/) uses the [RouterScan API](https://routescan.io/documentation/api-swagger) for contract verification. Currently, no API key is required, and your requests fall under their free plan.
 
 - As of writing these docs, the RouteScan API free tier allows you to use the API without an API key, offering up to **2 requests per second (rps)** and **a daily limit of 10,000 calls**. Read more at [RouterScan API Plans](https://routescan.io/documentation#api-plans)
-- To verify a contract on Funki Testnet, simply switch the chain information to [Funki Testnet](https://docs.funkichain.com/docs/network-information). Currently, Funki Testnet is an L2 of Sepolia Testnet, and its explorer is publicly available at [Funki Testnet Explorer](http://testnet-explorer.funkichain.com/)
+- To verify a contract on Funki Devnet, simply switch the chain information to [Funki Devnet](https://docs.funkichain.com/docs/network-information). Currently, Funki Devnet is an L2 of Sepolia Devnet, and its explorer is publicly available at [Funki Devnet Explorer](https://devnet-explorer.funkichain.com/)
 
 ## Objectives
 
