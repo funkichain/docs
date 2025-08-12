@@ -11,7 +11,7 @@ keywords:
     Funki blockchain,
     Funki network,
     Funki mainnet,
-    Funki testnet,
+    Funki devnet,
     smart contract analysis,
     transaction tracking,
     transaction details,
@@ -32,9 +32,9 @@ Routescan superchain explorer allows you to search for transactions, addresses, 
 
 ---
 
-## Testnet
+## Devnet
 
-A Blockscout explorer is available for [Funki Testnet](https://testnet-explorer.funkichain.com/).
+A Blockscout explorer is available for [Funki Devnet](https://devnet-explorer.funkichain.com).
 
 Blockscout provides tools to help you debug smart contracts and transactions:
 

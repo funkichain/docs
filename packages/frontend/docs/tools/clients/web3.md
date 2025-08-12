@@ -8,7 +8,7 @@ keywords:
     web3.js,
     Funki,
     Funki mainnet,
-    Funki testnet,
+    Funki devnet,
     Funki network,
     JavaScript,
     EVM,
@@ -63,7 +63,7 @@ const web3 = new Web3('https://rpc-mainnet.funkichain.com');
 
 :::info
 
-To alternatively connect to Funki Sepolia (testnet), change the above URL from `https://rpc-mainnet.funkichain.com` to `https://funki-testnet.alt.technology`.
+To alternatively connect to Funki Devnet (devnet), change the above URL from `https://rpc-mainnet.funkichain.com` to `https://rpc-devnet.funkichain.com`.
 
 :::
 

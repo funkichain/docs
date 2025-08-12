@@ -8,7 +8,7 @@ keywords:
     viem,
     Funki,
     Funki mainnet,
-    Funki testnet,
+    Funki devnet,
     Ethereum,
     smart contracts,
     blockchain,
@@ -23,7 +23,7 @@ keywords:
 
 :::info
 
-Viem is currently only available on Funki Sepolia testnet.
+Viem is currently only available on Funki Devnet devnet.
 
 :::
 
@@ -59,7 +59,7 @@ const client = createPublicClient({
 
 To use Funki, you must specify `funki` as the chain when creating a Client.
 
-To use Funki Sepolia (testnet), replace `funki` with `funkiSepolia`.
+To use Funki Devnet (devnet), replace `funki` with `funkiDevnet`.
 
 :::
 
@@ -101,7 +101,7 @@ client.sendTransaction({ ... })
 
 In addition to making a JSON-RPC request (`eth_requestAccounts`) to get an Account, viem provides various helper methods for creating an `Account`, including: [`privateKeyToAccount`](https://viem.sh/docs/accounts/privateKey.html), [`mnemonicToAccount`](https://viem.sh/docs/accounts/mnemonic.html), and [`hdKeyToAccount`](https://viem.sh/docs/accounts/hd.html).
 
-To use Funki Sepolia (testnet), replace `funki` with `funkiSepolia`.
+To use Funki Devnet (devnet), replace `funki` with `funkiDevnet`.
 
 :::
 

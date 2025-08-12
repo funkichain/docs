@@ -21,7 +21,7 @@ keywords:
     web3 transactions,
     blockchain communication,
     Funki Mainnet,
-    Funki Testnet,
+    Funki Devnet,
     interchain connectivity,
     blockchain interoperability,
     cross-chain transactions,
@@ -45,7 +45,7 @@ To learn more about Axelar visit our [docs](https://docs.axelar.dev/). For compl
 #### Supported Networks
 
 - [Funki Mainnet](https://docs.axelar.dev/resources/mainnet)
-- [Funki Testnet](https://docs.axelar.dev/resources/testnet)
+- [Funki Devnet](https://docs.axelar.dev/resources/testnet)
 
 #### Axelarscan
 

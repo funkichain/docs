@@ -33,7 +33,7 @@ To begin developing an app on Funki, you first need to set up a web3 wallet. We 
 
 Blockchain transactions, including deploying smart contracts, necessitate a gas fee. Therefore, you will need to fund your wallet with ETH to cover those gas fees.
 
-For this tutorial, you will be deploying a contract to the FunkiSepolia. You can fund your wallet with Funki Sepolia ETH using one of the faucets listed on the Funki [Network Faucets](https://funkichain.com/portfolio/tokens?modal=claim-faucet) page.
+For this tutorial, you will be deploying a contract to the FunkiDevnet. You can fund your wallet with Funki Devnet ETH using one of the faucets listed on the Funki [Network Faucets](https://funkichain.com/portfolio/tokens?modal=claim-faucet) page.
 
 ---
 
@@ -50,13 +50,13 @@ Follow these steps to set up your NFT collection:
 5. Click the **Deploy now** button.
 6. Provide the required details for your NFT collection:
     1. Contract metadata (i.e. image, name, symbol, description)
-    2. Network (Choose Funki Sepolia Sandbox)
+    2. Network (Choose Funki Devnet Sandbox)
 7. Click **Deploy Now**.
 
 ![images/png](/img/thridweb-success-contract.png)
 
 :::info
-For production / mainnet deployments select `FunkiMainet`  as the network rather than `Funki Sepolia Sandbox`.
+For production / mainnet deployments select `FunkiMainet`  as the network rather than `Funki Devnet Sandbox`.
 :::
 
 Post-deployment, you can manage your smart contract via the [thirdweb dashboard](https://thirdweb.com/dashboard/contracts).
@@ -89,15 +89,15 @@ Execute the following command:
 npx thirdweb create --template nft-gallery
 ```
 
-By default, the template is configured for an NFT collection on the Ethereum Mainnet. We'll modify the code to adapt our NFT collection to the FunkiSepolia.
+By default, the template is configured for an NFT collection on the Ethereum Mainnet. We'll modify the code to adapt our NFT collection to the FunkiDevnet.
 
 Follow these steps to update the template:
 
 1. Open the project in your preferred code editor.
 2. Locate and open the `src/consts/parameters.ts` file.
     1. Change the `contractAddress` variable to your NFT collection's contract address (found on the thirdweb dashboard).
-    2. Set the `chain` variable to `funkiSepolia`.
-    3. Update the `blockExplorer` variable to `https://testnet-explorer.funkichain.com/`.
+    2. Set the `chain` variable to `funkiDevnet`.
+    3. Update the `blockExplorer` variable to `https://devnet-explorer.funkichain.com`.
 3. Open the `src/main.tsx` file.
 4. Replace the entire contents of the file with the following code:
 
@@ -107,28 +107,28 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
 import { ThirdwebProvider } from "@thirdweb-dev/react";
-import { FunkiSepolia } from "@thirdweb-dev/chains";
+import { FunkiDevnet } from "@thirdweb-dev/chains";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <ThirdwebProvider activeChain={FunkiSepolia}>
+    <ThirdwebProvider activeChain={FunkiDevnet}>
       <App />
     </ThirdwebProvider>
   </React.StrictMode>,
 );
 ```
 
-The above code imports and uses `FunkiSepolia` to be the `activeChain`.
+The above code imports and uses `FunkiDevnet` to be the `activeChain`.
 
 :::info
-For production / mainnet deployments, update the information above so that the chain variable is Funki (step ii), the blockExplorer is https://explorer.funkichain.com (step iii), and update both instances of `FunkiSepolia` to `FunkiMainnet` in the example javascript code.
+For production / mainnet deployments, update the information above so that the chain variable is Funki (step ii), the blockExplorer is https://explorer.funkichain.com (step iii), and update both instances of `FunkiDevnet` to `FunkiMainnet` in the example javascript code.
 :::
 
 ---
 
 ## Running the Application
 
-Now that you've updated the FunkiSepolia chain and your NFT collection's address, you're ready to view your NFT collection in the application.
+Now that you've updated the FunkiDevnet chain and your NFT collection's address, you're ready to view your NFT collection in the application.
 
 To launch the application, execute the following command in the root directory:
 

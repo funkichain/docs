@@ -36,16 +36,10 @@ Be sure your wallet supports all Chains & Funki Chain mainnet you will be bridgi
 
 Add Funki Chain Mainnet to your Wallet
 - Network name: Funki Mainnet
-- Network RPC URL:
-
-
-[https://rpc-mainnet.funkichain.com](https://rpc-mainnet.funkichain.com/)
+- Network RPC URL: [https://rpc-mainnet.funkichain.com](https://rpc-mainnet.funkichain.com/)
 - Chain ID: 33979
 - Currency symbol: ETH
-- Block explorer URL:
-
-
-[https://explorer.funkichain.com](https://explorer.funkichain.com)
+- Block explorer URL: [https://explorer.funkichain.com](https://explorer.funkichain.com)
 
 
 

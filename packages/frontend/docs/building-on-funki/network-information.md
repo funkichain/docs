@@ -2,12 +2,12 @@
 title: Network Information
 slug: /network-information
 order: 4.1
-description: Documentation about Funki Mainnet and Funki Testnet. This page covers network information for the Funki network, including network names, descriptions, RPC endpoints, chain IDs, currency symbols, and block explorers.
+description: Documentation about Funki Mainnet and Funki Devnet. This page covers network information for the Funki network, including network names, descriptions, RPC endpoints, chain IDs, currency symbols, and block explorers.
 keywords:
   [
     Funki network,
     Funki Mainnet,
-    Funki Testnet,
+    Funki Devnet,
     RPC URL,
     Funki RPC URL,
     Funki RPC,
@@ -38,16 +38,16 @@ keywords:
 
 ---
 
-#### Funki Testnet
+#### Funki Devnet
 
 | Name            | Value                                                  |
 | :-------------- | :--------------------------------------------------------------- |
-| Network Name    | Funki Testnet                                                                          |
-| Description     | A public testnet for Funki.                                                       |
-| RPC Endpoint    | [https://funki-testnet.alt.technology](https://funki-testnet.alt.technology)<br/>_Rate limited and not for production systems._ |
-| Chain ID        | 3397901                                                                         |
+| Network Name    | Funki Devnet                                                                          |
+| Description     | A public devnet for Funki.                                                       |
+| RPC Endpoint    | [https://rpc-devnet.funkichain.com](https://rpc-devnet.funkichain.com)<br/>_Rate limited and not for production systems._ |
+| Chain ID        | 3397902                                                                         |
 | Currency Symbol | ETH                                                                       |
-| Block Explorer  | [https://testnet-explorer.funkichain.com/](https://testnet-explorer.funkichain.com/)   |
+| Block Explorer  | [https://devnet-explorer.funkichain.com](https://devnet-explorer.funkichain.com)   |
 
 ---
 

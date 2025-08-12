@@ -9,7 +9,7 @@ keywords:
     thirdweb,
     Funki,
     Funki mainnet,
-    Funki testnet,
+    Funki devnet,
     Funki network,
     web3 applications,
     smart contracts,
@@ -59,13 +59,13 @@ const contract = await sdk.getContract('0x00000000000000000000000000000000000000
 
 The code snippet above uses the [React SDK](https://portal.thirdweb.com/react). The thirdweb SDKs are also available in [React Native](https://portal.thirdweb.com/react-native), [TypeScript](https://portal.thirdweb.com/typescript), [Python](https://portal.thirdweb.com/python), [Go](https://portal.thirdweb.com/go), and [Unity](https://portal.thirdweb.com/unity).
 
-If alternatively you'd like to initialize the SDK with Funki Sepolia (testnet), use the following code instead:
+If alternatively you'd like to initialize the SDK with Funki Devnet (devnet), use the following code instead:
 
 ```javascript
-import { FunkiSepoliaSandbox } from '@thirdweb-dev/chains';
+import { FunkiDevnetSandbox } from '@thirdweb-dev/chains';
 import { ThirdwebSDK } from '@thirdweb-dev/sdk/evm';
 
-const sdk = new ThirdwebSDK(FunkiSepoliaSandbox);
+const sdk = new ThirdwebSDK(FunkiDevnetSandbox);
 const contract = await sdk.getContract('0x0000000000000000000000000000000000000000');
 ```
 

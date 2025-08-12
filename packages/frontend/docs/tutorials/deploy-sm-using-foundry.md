@@ -16,7 +16,7 @@ This article provides an overview of the Funki development toolchain and demonst
 
 Funki offers lightning-fast feedback loops (thanks to its Rust-based implementation) and minimizes context switching—you'll write your contracts, tests, and deployment scripts all in Solidity!
 
-> For production or mainnet deployments, the process remains largely the same. The key difference is configuring `FunkiMainnet` as your network instead of `FunkiSepolia`. For network details, refer to the [Funki chain info](https://docs.funkichain.com/docs/network-information).
+> For production or mainnet deployments, the process remains largely the same. The key difference is configuring `FunkiMainnet` as your network instead of `FunkiDevnet`. For network details, refer to the [Funki chain info](https://docs.funkichain.com/docs/network-information).
 >
 
 ---
@@ -53,7 +53,7 @@ To deploy a smart contract, you'll need a web3 wallet. Create one by installing 
 
 ### Wallet Funds
 
-Deploying contracts requires ETH for gas fees. For this tutorial, you'll deploy to the Funnki testnet. Fund your wallet with Funki Sepolia ETH using a faucet listed on the Funki [Network Faucets](https://funkichain.com/portfolio/tokens?modal=claim-faucet) page.
+Deploying contracts requires ETH for gas fees. For this tutorial, you'll deploy to the Funnki devnet. Fund your wallet with Funki Devnet ETH using a faucet listed on the Funki [Network Faucets](https://funkichain.com/portfolio/tokens?modal=claim-faucet) page.
 
 ---
 
@@ -159,7 +159,7 @@ Create a `.env` file in your project's home directory to add the Funki network a
 
 ```
 FUNKI_MAINNET_RPC="https://rpc-mainnet.funkichain.com"
-FUNKI_TESTNET_RPC="https://funki-testnet.alt.technology"
+FUNKI_TESTNET_RPC="https://rpc-devnet.funkichain.com"
 ETHERSCAN_API_KEY="<YOUR API KEY>"
 ```
 
@@ -177,13 +177,13 @@ source .env
 
 ## Deploying the Smart Contract
 
-With your contract compiled and environment configured, you're ready to deploy to the Funki testnet!
+With your contract compiled and environment configured, you're ready to deploy to the Funki devnet!
 
 You'll use the `forge create` command—a straightforward way to deploy a single contract. For more complex projects, consider exploring [`forge script`](https://book.getfoundry.sh/tutorials/solidity-scripting), which enables scripting on-chain transactions and deploying intricate smart contract systems.
 
 Before proceeding, ensure you have testnet ETH in your wallet. If not, revisit the [prerequisites](#prerequisites) to avoid deployment hiccups.
 
-To deploy the contract to Funki Sepolia Testnet, execute the following command and enter the password you set when importing your private key:
+To deploy the contract to Funki Devnet devnet, execute the following command and enter the password you set when importing your private key:
 
 ```bash
 forge create ./src/NFT.sol:NFT --rpc-url $FUNKI_TESTNET_RPC --account deployer
@@ -205,7 +205,7 @@ Remember, new or modified contracts require verification, regardless of the netw
 
 In web3, contract verification is crucial. It allows users and developers to inspect the source code and confirm it matches the deployed bytecode on the blockchain.
 
-Verification is also necessary for others to interact with your contract via the block explorer. While the above contract is pre-verified, let's walk through the verification process on Funki testnet.
+Verification is also necessary for others to interact with your contract via the block explorer. While the above contract is pre-verified, let's walk through the verification process on Funki devnet.
 
 > As of this writing, FunkiScan utilizes the RouteScan API. Their free tier doesn't require an API key and offers **2 requests per second (rps)** with **a daily limit of 10,000 calls**. For more details, visit the [RouterScan API Plans](https://routescan.io/documentation#api-plans) page.
 > 

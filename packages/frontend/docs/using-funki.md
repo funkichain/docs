@@ -2,7 +2,7 @@
 title: Using Funki
 slug: /using-funki
 order: 3
-description: "How to integrate Funki with popular wallets like MetaMask, covering both mainnet and testnet configurations."
+description: "How to integrate Funki with popular wallets like MetaMask, covering both mainnet and devnet configurations."
 keywords:
   [
     "Funki",
@@ -10,7 +10,7 @@ keywords:
     "EVM-compatible wallets",
     "network configuration",
     "Funki mainnet",
-    "Funki testnet",
+    "Funki devnet",
     "Sepolia",
     "cryptocurrency wallet setup",
     "Funki wallet setup",
@@ -52,26 +52,26 @@ You should now be able to connect to the Funki by selecting it from the network 
 
 ---
 
-### Testnet
+### Devnet
 
-To add Funki Testnet as a custom network to MetaMask:
+To add Funki Devnet as a custom network to MetaMask:
 
 1. Open the MetaMask browser extension.
 2. Open the network selection dropdown menu by clicking the dropdown button at the top of the extension.
 3. Click the **Add network** button.
 4. Click **Add a network manually**.
-5. In the **Add a network manually** dialog that appears, enter the following information for the Funki testnet:
+5. In the **Add a network manually** dialog that appears, enter the following information for the Funki devnet:
 
    | Name            | Value                                                                |
    | :-------------- | :--------------------------------------------------------------------- |
-   | Network Name    | Funki Testnet                                                          |
-   | RPC Endpoint    | [https://funki-testnet.alt.technology](https://funki-testnet.alt.technology)                   |
-   | Chain ID        | 3397901                                                                  |
+   | Network Name    | Funki Devnet                                                          |
+   | RPC Endpoint    | [https://rpc-devnet.funkichain.com](https://rpc-devnet.funkichain.com)                   |
+   | Chain ID        | 3397902                                                                  |
    | Currency Symbol | ETH                                                                    |
-   | Block Explorer  | [https://testnet-explorer.funkichain.com/](https://testnet-explorer.funkichain.com/) |
+   | Block Explorer  | [https://devnet-explorer.funkichain.com](https://devnet-explorer.funkichain.com) |
 
-6. Tap the Save button to save Funki Testnet as a network.
+6. Tap the Save button to save Funki Devnet as a network.
 
-You should now be able to connect to the Funki testnet by selecting it from the network selection dropdown menu.
+You should now be able to connect to the Funki devnet by selecting it from the network selection dropdown menu.
 
 ---
